@@ -18,7 +18,7 @@ const personas=[
     "John LLanes"
 ];
 window.addEventListener("click",(e)=>{
-    console.log(e.target);
+    //console.log(e.target);
    if(e.target.matches(".main-services-ab-button")){
        const active=document.querySelector(".button-active");
        const text=document.querySelector(".main-services-ab-p");
