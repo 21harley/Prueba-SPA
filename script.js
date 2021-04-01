@@ -16,10 +16,9 @@ a more sustainable future.
 window.onscroll = function (){
     let valor;
     if(window.screen.width>880){
-      //valor=[150,200,790,1509,2194,3712];
-      valor=[150,700,1296,2515,3217,4594];
+        valor=[150,200,790,1509,2194,3712];
     }else{
-      //valor=[150,200,896,1715,2717,3794];
+        valor=[150,700,1296,2515,3217,4594];
     }
     const scroll = document.documentElement.scrollTop || document.body.scrollTop;
     console.log(scroll);
