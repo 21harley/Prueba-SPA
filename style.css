@@ -903,8 +903,8 @@ input[type='radio']:checked:after {
         top: 10px;
     }
     .main{
-        height: 570vh;
-        grid-template-rows: 190vh 160vh 60vh 160vh;
+        height: 525vh;
+        grid-template-rows: 150vh 160vh 60vh 145vh;
     }
     .main-about-us{
 
@@ -916,6 +916,9 @@ input[type='radio']:checked:after {
         grid-template-columns: 100%;
         grid-template-rows: 40% 60%;
 
+    }
+    .main-contact-us{
+      grid-template-rows: 70% 30%;
     }
     .main-services-text{
        width: 300px;
@@ -974,8 +977,12 @@ input[type='radio']:checked:after {
     .v-img-name{
         top: 160px;
     }
+
     .contact-social-poss{
-        width: 300px;
+        position: relative;
+        top: 40px;
+        height: 100%;
+        width: 250px;
         grid-template-columns: 100%;
         grid-template-rows: repeat(4,25%);
     }
@@ -983,7 +990,7 @@ input[type='radio']:checked:after {
         font-size: large;
     }
     .footer{
-        height: 150vh;
+        height: 130vh;
         grid-template-rows: 80% 20%;
     }
     .footer-like-office-service,.footer-like-office-tittle,.footer-like-office-useful{
@@ -994,8 +1001,8 @@ input[type='radio']:checked:after {
         place-items: center;
     }
     .footer-like-poss{
-        width: 300px;
-        height: 90%;
+        width: 250px;
+        height: 95%;
         grid-template-columns: 100%;
         grid-template-rows: repeat(6,16.66%);
     }
