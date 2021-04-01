@@ -139,9 +139,7 @@ z-index: 1;
   opacity: 0.95;
   z-index: 10;
 }
-.dato{
 
-}
 .nav-ul-li{
     height: 100%;
     display: flex;
@@ -907,9 +905,6 @@ input[type='radio']:checked:after {
     .main{
         height: 525vh;
         grid-template-rows: 150vh 160vh 60vh 145vh;
-    }
-    .main-about-us{
-
     }
     .about-us-container{
         display: grid;
