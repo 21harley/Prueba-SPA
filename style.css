@@ -715,15 +715,15 @@ input[type='radio']:checked:after {
     align-items: center;
 }
 .social-poss{
-    height: 60%;
+    height: 50%;
     width: 100%;
     margin: 0;
     background-color: var(--orange);
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .social-sub{
     display: flex;
@@ -735,15 +735,15 @@ input[type='radio']:checked:after {
     margin: 0px 20px 0px 0px;
 }
 .contact-social-form{
-    height: 60%;
+    height: 50%;
     width: 100%;
     margin: 0;
     background-color: var(--orange);
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .input-social-form{
     height: 32px;
