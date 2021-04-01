@@ -87,7 +87,7 @@ z-index: 1;
 }
 
 .title-date-h4{
-    margin: 0;
+    margin: 0px 0px 5px 0px;
     color: var(--orange);
     font-size: small;
 }
@@ -198,11 +198,13 @@ z-index: 1;
  
 }
 .barra-orange{
+    margin: 5px 0px 5px 0px;
     width: 50px;
-    height: 10px;
+    height: 6px;
     background-color: var(--orange);
 }
 .p-home{
+    margin: 5px 0px 10px 0px;
     font-size: 21px;
     color: var(--white);
 }
@@ -222,7 +224,7 @@ z-index: 1;
     align-items: flex-end;
 }
 .form-header>h3{
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 10px 30px;
     font-size: x-large;
     color: var(--bluedark);
 }
@@ -259,7 +261,7 @@ z-index: 1;
     color: var(--bluelight);
 }
 .form-footer{
-    height: 100%;
+    height: 60%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -271,7 +273,7 @@ z-index: 1;
   background: none;
   border:none;
   width: 80%;
-  height: 30%;
+  height: 50%;
   background-color: var(--bluelight);
   border:var(--bluedark);
   border-radius: 5px;
@@ -335,7 +337,7 @@ z-index: 1;
 .about-us-ul-img{
    width: 70px;
    height: 70px;
-   border-radius: 5px;
+   border-radius: 2.5px;
 }
 
 .about-us-date-text{
@@ -443,7 +445,7 @@ z-index: 1;
 }
 .main-services-ab-button,.main-services-ad-contact{
     height: 35px;
-    width: 95%;
+    width: 90%;
     border-radius: 3px;
     border:var(--grey) ;
     background-color: var(--white);
@@ -697,7 +699,7 @@ input[type='radio']:checked:after {
     margin: 0px 0px 0px 15px;
 }
 .social-title-span{
-    margin: 10px 0px 10px 0px;
+    margin: 5px 0px 2px 0px;
     font-size: small;
     color: var(--orange);
 }
