@@ -1037,6 +1037,15 @@ input[type='radio']:checked:after {
         border-radius: 5px;
 
     }
+    .input-social-form,.social-form-submit{
+      height: 25px;
+    }
+    .input-social-form{
+        width: 140px;
+    }
+    .input-social-form{
+       width: 70px;
+    }
 }
 /*----------------------------------*/
 
